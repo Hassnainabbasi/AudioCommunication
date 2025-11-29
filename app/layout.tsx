@@ -2,9 +2,14 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Audio Communication - WebRTC',
-  description: 'Real-time audio communication using WebRTC',
-}
+  title: "Audio Communication - WebRTC",
+  description: "Real-time audio communication using WebRTC",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
+};
 
 export default function RootLayout({
   children,
